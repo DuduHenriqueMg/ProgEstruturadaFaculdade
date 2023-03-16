@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+int main(void) {
     
     float custo_fabrica, custo_distribuidor, custo_impostos, custo_novo;
 
