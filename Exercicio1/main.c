@@ -18,7 +18,7 @@ int main(void) {
 
     custos = mercadoria+frete+despesas;
     lucro= venda-custos;
-    porcentagem = lucro/custos*100;
+    porcentagem = (lucro/custos)*100;
     
     if(venda>custos){
         printf("O lucro foi de %0.2f por cento!", porcentagem);
