@@ -13,7 +13,7 @@ int main(void) {
     printf("Digite a terceira nota: ");
     scanf("%f", &nota3);
 
-    media = ((nota1*2) + (nota2*3) + (nota3*5)) /10;
+    media = ((nota1*2)+(nota2*3)+(nota3*5))/10;
 
     printf("A media final e %.2f\n", media);
 
